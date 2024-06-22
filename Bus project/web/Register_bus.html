@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Register Bus</h1>
+        <form action="Register_Bus">
+        <pre>
+        <label for="bus_num">Bus Number:</label>
+        <input type="text" id="bus_num" name="bus_num" placeholder="Enter Bus Number" required>
+        
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from" placeholder="Enter the departure destination" required>
+        
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" placeholder="Enter the arrival destination" required>
+        
+        <label for="date">Date :</label>
+        <input type='date' id="date" name="date" placeholder="Enter Date of Travel" required>
+        
+        <label for="dtimings">Departure Timing:</label>
+        <input type="time" id="dtimings" name="dtimings" placeholder="Enter the Departure Timing" required>
+
+        <label for="atimings">Arrival Timing:</label>
+        <input type="time" id="atimings" name="atimings" placeholder="Enter the Arrival Timing" required>
+        
+        <label for="sseats">Seater Seats available:</label>
+        <select id="sseats" name="sseats">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option></select>
+        
+        <label for="slseats">Sleeper Seats available:</label>
+        <select id="slseats" name="slseats">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option></select>
+        
+        <label for="driver_name">Driver name:</label>
+        <input type="text" id="driver_name" name="driver_name" placeholder="Enter the Drivers Name" required>
+         
+        <label for="driver_num">Driver's Number:</label>
+        <input type="text" id="driver_num" name="driver_num" placeholder="Enter the Driver's number" required>
+        
+        <label for="sprice">Seater seats price:</label>
+        <input type="text" id="sprice" name="sprice" placeholder="Enter price for seater seats" required>
+
+        <label for="slprice">Sleeper seats price:</label>
+        <input type="text" id="slprice" name="slprice" placeholder="Enter price for sleeper seats" required>
+
+
+        <input type="submit" value='Register'>
+            </pre>    
+        </form>
+        <br>
+<br>
+<br>
+<form action="LogoutServlet" method="post">
+<button type="submit">Logout</button>
+</form>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 05-Jun-2024, 11:41:42 pm
+    Author     : Jiya
+*/
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #2c3e50;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    margin: 15px 0;
+}
+ul li a {
+    text-decoration: none;
+    color: #16a085;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    border: 2px solid #16a085;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+ul li a:hover {
+    background-color: #16a085;
+    color: #fff;
+}
+div {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #16a085;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+    background-color: #149174;
+}
+
